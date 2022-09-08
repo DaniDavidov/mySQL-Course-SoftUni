@@ -1,0 +1,11 @@
+USE `minions`;
+CREATE TABLE `minions` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  `name` VARCHAR(50) NOT NULL,
+  `age` INT NOT NULL
+);
+
+CREATE TABLE `towns` (
+  `town_id` INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  `name` VARCHAR(50) NOT NULL
+);
